@@ -1,59 +1,269 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev - Gabriel David</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/f9e233978f.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <script
+      src="https://kit.fontawesome.com/f9e233978f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      id="aos-css"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css?ver=1"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
     <!-- Menu -->
     <header>
-        <h2 class="logo">logo</h2> <!-- Substituir por imagem -->
-        <nav class="navegacao">
-            <a href="#">Home</a>
-            <a href="#">Quem sou eu</a>
-            <a href="#">O que eu faço</a>
-            <a href="#">Projetos</a>
-        </nav>
+      <h2 class="logo">logo</h2>
+      <!-- Substituir por imagem -->
+      <nav class="navegacao">
+        <a href="#">Home</a>
+        <a href="#">Quem sou eu</a>
+        <a href="#">O que eu faço</a>
+        <a href="#">Projetos</a>
+      </nav>
     </header>
 
-    <!-- Rodapé -->
-     <footer>
-        <div class="linhaRodape">
-            <div class="colunaRodape">
-                <h3 class="logoRodape">logo</h3> <!-- Substituir por imagem -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cumque reiciendis harum ullam fuga maiores odio, quam laudantium! Distinctio, dicta. Ad vitae quisquam hic. Aspernatur sapiente impedit doloribus veniam minima?</p> <!-- Substituir por texto personalizado -->
-            </div>
-            <div class="colunaRodape">
-                <h3>Contato <div class="underline"><span></span></div> </h3>
-                <p>Entre em contato.</p>
-                <p>Envie um E-mail ou me chame no WhatsApp.</p>
-                <p class="email-id">gabrieldavidcontato@gmail.com</p>
-                <h4>+55 (11) 94122-9246</h4>
-            </div>
-            <div class="colunaRodape">
-                <h3>Links <div class="underline"><span></span></div> </h3>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Quem sou eu</a></li>
-                    <li><a href="">O que eu faço</a></li>
-                    <li><a href="">Projetos</a></li>
-                    
-                </ul>
-            </div>
-            <div class="colunaRodape">
-                <h3>Redes Sociais <div class="underline"><span></span></div> </h3>
-                <div class="icones-redes-sociais">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-whatsapp"></i>
-                </div>
-            </div>
+    <!-- Seção de conteúdos -->
+    <section class="secao-conteudo">
+      <div class="conteudo-1">
+        <div class="caixa-conteudo-1">
+          <h1>Olá, aqui é o <span>Gabriel David</span></h1>
+          <h3 class="escrevendo-texto">Eu sou <span></span></h3>
+          <p>
+            Entendo o problema, escrevo o código certo para entregar a melhor solução possível.
+          </p>
+          <div class="icones-tecnologias">
+            <a href="#" title="HTML5"><i class="fa-brands fa-html5"></i></a>
+            <a href="#" title="CSS3"><i class="fa-brands fa-css3-alt"></i></a>
+            <a href="#" title="JavaScript"><i class="fa-brands fa-js"></i></a>
+            <a href="#" title="Angular"><i class="fa-brands fa-angular"></i></a>
+            <a href="#" title="C#"><i class="fa-brands fa-angular"></i></a>
+            <a href="#" title="SQL Server"><i class="fa-brands fa-angular"></i></a>
+          </div>
+          <div class="botao-conteudo-1">
+            <a href="#">O que eu faço</a>
+          </div>
+          <div class="botao-conteudo-2">
+            <a href="#">Projetos</a>
+          </div>
         </div>
-        <hr>
-        <p class="autoria">Gabriel David - Desenvolvedor FullStack</p>
-     </footer>
-</body>
+        
+      </div>
+      <div class="conteudo-2 container">
+        <div class="service-wrapper">
+          <div class="service">
+            <h2>O que eu faço <span></span></h2>
+            <div class="cards">
+              <div class="card">
+                <i class="fa fa-server"></i>
+                <h3>APIs Robustas e Escaláveis</h3>
+                <p>
+                  Desenvolvo APIs REST com arquitetura limpa (Onion, DDD)
+                </p>
+                <p class="descricao-card">
+                  Integração segura com SQL Server, garantindo organização e performance.
+                </p>
+              </div>
+              <div class="card">
+                <i class="fa fa-desktop"></i>
+                <h3>Interfaces Modernas</h3>
+                <p>
+                  Crio interfaces responsivas e dinâmicas, focadas em UX/UI.
+                </p>
+                <p class="descricao-card">
+                  Garantindo fluidez na experiência do usuário e integração eficiente com APIs.
+                </p>
+              </div>
+              <div class="card">
+                <i class="fa fa-code"></i>
+                <h3>Desenvolvimento Eficiente</h3>
+                <p>
+                  Aplico Scrum/Kanban, versionamento com Git/GitHub e sigo boas práticas como Clean Code e SOLID.
+                </p>
+                <p class="descricao-card">
+                  Para códigos de qualidade e com manutenção simplificada.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conteudo 3 -->
+    <section class="secao-conteudo-3">
+        <div class="conteudo-3 relative lg:pt-40 pt-24 px-6 text-slate-500">
+            <div class="max-w-md text-center block m-auto">
+              <h1 class="text-5xl font-bold text-white mb-8 max-w-xl">
+                Projetos
+              </h1>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus perspiciatis quo rem sequi maiores repellat tempora exercitationem.
+            </div>
+          </div>
+          <div class="projects-list pointer-events-none relative">
+            <div
+              class="projects-bg -z-10 absolute top-0 left-0 w-full h-full"
+            ></div>
+            <div class="relative h-screen">
+              <div
+                class="viewport -z-10 right-0 top-0 md:w-1/2 w-full h-full absolute"
+              >
+                <div
+                  class="mockup pointer-events-none w-full h-full lazyload"
+                  style="background-image: inherit"
+                  data-bg-image="url('assets/img/img-celular.png')"
+                ></div>
+                <div class="shadow absolute top-0 left-0 w-full h-full"></div>
+                <div class="shadow-down absolute top-0 left-0 w-full h-full"></div>
+              </div>
+              <div
+                class="conteudo-3 sm:text-base text-xs lg:p-0 p-6 max-w-4xl h-full grid grid-flow-col sm:grid-cols-2 grid-cols-1 gap-4 sm:place-items-center sm:place-content-center place-content-end"
+              >
+                <div
+                  class="text-slate-500 md:bg-inherit md:p-0 bg-black bg-opacity-90 p-6"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <h3 class="text-xl font-bold text-white mb-3">
+                    Nome Projeto
+                  </h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequatur sapiente eos excepturi numquam, explicabo nam odit nobis, placeat quis, ad reiciendis dolore perferendis deleniti iusto omnis expedita consequuntur ab!
+                  <div class="text-pink-600 text-sm mt-3">Tecnologia, Tecnologia</div>
+                </div>
+              </div>
+            </div>
+            <div class="relative h-screen">
+              <div
+                class="viewport -z-10 right-0 top-0 md:w-1/2 w-full h-full absolute"
+              >
+                <div
+                  class="mockup pointer-events-none w-full h-full lazyload"
+                  style="background-image: inherit"
+                  data-bg-image="url('assets/img/img-pc.png')"
+                ></div>
+                <div class="shadow absolute top-0 left-0 w-full h-full"></div>
+                <div class="shadow-down absolute top-0 left-0 w-full h-full"></div>
+              </div>
+              <div
+                class="conteudo-3 sm:text-base text-xs lg:p-0 p-6 max-w-4xl h-full grid grid-flow-col sm:grid-cols-2 grid-cols-1 gap-4 sm:place-items-center sm:place-content-center place-content-end"
+              >
+                <div
+                  class="text-slate-500 md:bg-inherit md:p-0 bg-black bg-opacity-90 p-6"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <h3 class="text-xl font-bold text-white mb-3">
+                    Nome Projeto
+                  </h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis rem numquam! Fugit neque autem impedit, nesciunt dolorum modi corporis tenetur ipsum quasi voluptates placeat, illo quae facilis obcaecati cumque?
+                  <div class="text-pink-600 text-sm mt-3">Tecnologia, Tecnologia</div>
+                </div>
+              </div>
+            </div>
+            <div class="relative h-screen">
+              <div
+                class="viewport -z-10 right-0 top-0 md:w-1/2 w-full h-full absolute"
+              >
+                <div
+                  class="mockup pointer-events-none w-full h-full lazyload"
+                  style="background-image: inherit"
+                  data-bg-image="url('assets/img/img-celular.png')"
+                ></div>
+                <div class="shadow absolute top-0 left-0 w-full h-full"></div>
+                <div class="shadow-down absolute top-0 left-0 w-full h-full"></div>
+              </div>
+              <div
+                class="conteudo-3 sm:text-base text-xs lg:p-0 p-6 max-w-4xl h-full grid grid-flow-col sm:grid-cols-2 grid-cols-1 gap-4 sm:place-items-center sm:place-content-center place-content-end"
+              >
+                <div
+                  class="text-slate-500 md:bg-inherit md:p-0 bg-black bg-opacity-90 p-6"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <h3 class="text-xl font-bold text-white mb-3">
+                    Nome Projeto
+                  </h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus distinctio vel animi culpa consequuntur natus, quia vitae quis sequi iure quo. Deserunt laudantium quaerat blanditiis aliquam ad esse, aspernatur consequatur?
+                  <div class="text-pink-600 text-sm mt-3">Tecnologia, Tecnologia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="linhaRodape">
+        <div class="colunaRodape">
+          <h3 class="logoRodape">logo</h3>
+          <!-- Substituir por imagem -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            cumque reiciendis harum ullam fuga maiores odio, quam laudantium!
+            Distinctio, dicta. Ad vitae quisquam hic. Aspernatur sapiente
+            impedit doloribus veniam minima?
+          </p>
+          <!-- Substituir por texto personalizado -->
+        </div>
+        <div class="colunaRodape">
+          <h3>
+            Contato
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Entre em contato.</p>
+          <p>Envie um E-mail ou me chame no WhatsApp.</p>
+          <p class="email-id">gabrieldavidcontato@gmail.com</p>
+          <h4>+55 (11) 94122-9246</h4>
+        </div>
+        <div class="colunaRodape">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Quem sou eu</a></li>
+            <li><a href="">O que eu faço</a></li>
+            <li><a href="">Projetos</a></li>
+          </ul>
+        </div>
+        <div class="colunaRodape">
+          <h3>
+            Redes Sociais
+            <div class="underline"><span></span></div>
+          </h3>
+          <div class="icones-redes-sociais">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="autoria">Gabriel David - Desenvolvedor FullStack</p>
+    </footer>
+  </body>
+  <!-- Scripts meus projetos -->
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/aos@2.3.1/dist/aos.js?ver=1"
+    id="aos-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/scripts/script1.js"
+    id="main-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/scripts/script2.js"
+    id="smush-lazy-load-js"
+  ></script>
 </html>
